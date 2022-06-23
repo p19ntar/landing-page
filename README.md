@@ -1,2 +1,2 @@
 # landing-page
-Oding project=landing page
+Odin project=landing page
