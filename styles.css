@@ -10,7 +10,7 @@ body {
 button {
     color: #F9FAF8;
     background: #3882F6;
-    padding: 4px 18px;
+    padding: 6px 24px;
     border-radius: 5px;
     border: 0;
 }
@@ -107,7 +107,8 @@ a {
     display: flex;
     justify-content: center;
     gap: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 180px;
+
 }
 
 .info {
@@ -115,3 +116,76 @@ a {
 }
 
 /* css for quote */
+
+
+.quote {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quotetext {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.quoteauthor {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-left: 35%;
+}
+
+/* css for footer */
+
+.footer {
+    background: #3882F6;
+    margin: 80px;
+    border-radius: 4px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.footertitle {
+    color: #E5E7EB;
+    font-weight: 900;
+}
+
+.footerinfo {
+    color: #E5E7EB;
+}
+
+.footerbutton {
+    display: flex;
+    border: #E5E7EB;
+    border-radius: 7px;
+    border: 2px solid;
+    margin: 15px;
+}
+
+.copyright {
+    background: #1F2937;
+    color: #E5E7EB;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
